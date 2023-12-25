@@ -690,7 +690,7 @@
 	emag_modules = list(/obj/item/gun/energy/laser/cyborg)
 	ratvar_modules = list(/obj/item/clockwork/slab/cyborg/security,
 		/obj/item/clockwork/weapon/ratvarian_spear)
-	borghealth = 250
+	borghealth = 200
 	cyborg_base_icon = "gutsy"
 	moduleselect_icon = "standard"
 	hat_offset = -2
