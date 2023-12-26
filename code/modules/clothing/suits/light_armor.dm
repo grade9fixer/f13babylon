@@ -460,15 +460,8 @@
 	name = "brotherhood scout armour"
 	icon_state = "bos_scout"
 	item_state = "bos_scout"
+	desc = "A combat armor set made by the Brotherhood of Steel, standard issue for all Knights. This one has had its extra protective padding removed, making it lighter yet less durable."
 	armor = list("melee" = 25, "bullet" = 30, "laser" = 30, "energy" = 10, "bomb" = 25, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0, "wound" = 10)
-
-/* unused for potential balancing issues, just uncomment if someone wants to use it
-/obj/item/clothing/suit/armored/light/bos_scout/senior
-	name = "brotherhood senior scout armour"
-	icon_state = "bos_scout_senior"
-	item_state = "bos_scout_senior"
-	armor = list("melee" = 30, "bullet" = 35, "laser" = 40, "energy" = 15, "bomb" = 25, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0, "wound" = 15)
-*/
 
 ///////////
 // MISC. //
