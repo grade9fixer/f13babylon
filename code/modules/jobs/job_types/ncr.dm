@@ -1112,7 +1112,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/datum/outfit/loadout/trooperrifleman, // service rifle+Bayonet
 		/datum/outfit/loadout/trooperfiresupport, // Hunting shotgun, Trench tool, Sandbags
 		/datum/outfit/loadout/trooperhunter, // Hunting rifle
-		/datum/outfit/loadout/trooperhalal, // 1911, Machete, Grognak
+		/datum/outfit/loadout/trooperdesert, // 1911, Machete, Grognak
 		)
 
 	matchmaking_allowed = list(
@@ -1175,7 +1175,6 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/clothing/suit/armor/f13/ncrarmor/conscript/ncrwarrior = 1,
 		/obj/item/book/granter/trait/bigleagues = 1
 		)
-
 
 // CONSCRIPT
 
