@@ -1107,7 +1107,6 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	display_order = JOB_DISPLAY_ORDER_TROOPER
 	outfit = /datum/outfit/job/ncr/f13trooper
 	exp_type = EXP_TYPE_NCR
-	exp_requirements = 180
 
 	loadout_options = list(
 		/datum/outfit/loadout/trooperrifleman, // service rifle+Bayonet
