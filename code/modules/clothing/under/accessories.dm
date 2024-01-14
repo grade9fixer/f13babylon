@@ -543,7 +543,11 @@
 	minimize_when_attached = TRUE
 
 /obj/item/clothing/accessory/armband/med/ncr
-	name = "Medical Personnel armband"
+	name = "medical armband (E-4 Medical-Specialist)"
+	desc = "An armband worn by NCR medical personnel. This one is white."
+
+/obj/item/clothing/accessory/armband/med/ncr/sgt
+	name = "medical armband (E-5 Medical-Sergeant)"
 	desc = "An armband worn by NCR medical personnel. This one is white."
 
 /obj/item/clothing/accessory/ncr/FSGT
@@ -568,7 +572,11 @@
 	minimize_when_attached = TRUE
 
 /obj/item/clothing/accessory/armband/engine/ncr
-	name = "engineering armband (E-5 Engineer)"
+	name = "engineering armband (E-4 Tech-Specialist)
+	desc = "An armband worn by NCR Engineers to display their rank and speciality. This one is orange with a reflective strip!"
+
+/obj/item/clothing/accessory/armband/engine/ncr/sgt
+	name = "engineering armband (E-5 Tech-Sergeant)"
 	desc = "An armband worn by NCR Engineers to display their rank and speciality. This one is orange with a reflective strip!"
 
 /obj/item/clothing/accessory/ncr/CPL
