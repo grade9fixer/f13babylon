@@ -879,13 +879,14 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	head = /obj/item/clothing/head/hardhat/ncr
 	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/reinforced/engineer
 	gloves = /obj/item/clothing/gloves/color/yellow
-	accessory =	/obj/item/clothing/accessory/ncr/SPC
+	accessory = /obj/item/clothing/accessory/armband/engine/ncr
 	belt = null
 	backpack_contents = list(
 		/obj/item/shovel/trench = 1,
 		/obj/item/storage/bag/money/small/ncrenlisted = 1,
 		/obj/item/reagent_containers/hypospray/medipen/stimpak = 1,
-		/obj/item/grenade/f13/frag = 1
+		/obj/item/grenade/f13/frag = 1,
+		/obj/item/clothing/accessory/armband/engine/ncr/sgt = 1
 		)
 
 /datum/outfit/loadout/combatengineersapper
@@ -996,7 +997,8 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/storage/survivalkit_aid_adv = 1,
 		/obj/item/storage/bag/money/small/ncrenlisted = 1,
 		/obj/item/storage/firstaid/regular = 1,
-		/obj/item/reagent_containers/hypospray/medipen/stimpak = 1
+		/obj/item/reagent_containers/hypospray/medipen/stimpak = 1,
+		/obj/item/clothing/accessory/armband/med/ncr/sgt = 1
 		)
 
 /datum/outfit/loadout/ncrdocsmg
@@ -1070,8 +1072,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/storage/bag/money/small/ncrenlisted = 1,
 		/obj/item/reagent_containers/hypospray/medipen/stimpak = 1,
 		/obj/item/grenade/f13/frag = 2,
-		/obj/item/storage/box/ration/menu_two = 1,
-		/obj/item/clothing/accessory/ncr/MCPL = 1
+		/obj/item/storage/box/ration/menu_two = 1,	
 		)
 
 /datum/outfit/loadout/corporalsmg
