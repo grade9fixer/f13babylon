@@ -762,7 +762,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 /datum/job/ncr/f13heavytrooper
 	title = "NCR Heavy Trooper"
 	flag = F13HEAVYTROOPER
-	total_positions = 2
+	total_positions = 1
 	spawn_positions = 2
 	description = "You are the NCREG's heaviest hitter. Choose your loadout careful and ensure that you utilise your gear and armour to lay down suppressive fire, flush out enemies, and tank hits in the process."
 	supervisors = "Corporal and Above"
@@ -1113,7 +1113,6 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/datum/outfit/loadout/trooperrifleman, // service rifle+Bayonet
 		/datum/outfit/loadout/trooperfiresupport, // Hunting shotgun, Trench tool, Sandbags
 		/datum/outfit/loadout/trooperhunter, // Hunting rifle
-		/datum/outfit/loadout/trooperdesert, // 1911, Machete, Grognak
 		)
 
 	matchmaking_allowed = list(
@@ -1163,18 +1162,6 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	suit_store = /obj/item/gun/ballistic/rifle/hunting
 	backpack_contents = list(
 		/obj/item/ammo_box/a308 = 2,
-		)
-
-/datum/outfit/loadout/trooperdesert
-	name = "Desert Trooper"
-	suit_store = /obj/item/gun/ballistic/automatic/pistol/m1911
-	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m45 = 3,
-		/obj/item/melee/onehanded/machete = 1,
-		/obj/item/storage/box/ration/menu_eight = 1,
-		/obj/item/clothing/head/f13/headscarfncr = 1,
-		/obj/item/clothing/suit/armor/f13/ncrarmor/conscript/ncrwarrior = 1,
-		/obj/item/book/granter/trait/bigleagues = 1
 		)
 
 // CONSCRIPT
