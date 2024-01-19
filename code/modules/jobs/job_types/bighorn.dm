@@ -66,11 +66,13 @@ Mayor
 	suit = 		/obj/item/clothing/suit/armor/f13/kit
 	head = 		/obj/item/clothing/head/fedora
 	backpack_contents = list(
-		/obj/item/clothing/head/f13/town/big = 1, \
-		/obj/item/storage/box/citizenship_permits = 1, \
-		/obj/item/ammo_box/a357=2, \
+		/obj/item/clothing/head/f13/town/big = 1,
+		/obj/item/storage/box/citizenship_permits = 1,
+		/obj/item/ammo_box/a357 = 2,
 		/obj/item/pen/fountain/captain = 1,
-		/obj/item/storage/bag/money/small/mayor = 1,)//Cash for payouts. Incredible amount, seeing as next to the Banker, he's the closest thing to a treasury keeper.
+		/obj/item/storage/bag/money/small/mayor = 1, //Cash for payouts. Incredible amount, seeing as next to the Banker, he's the closest thing to a treasury keeper.
+		/obj/item/pda = 1,
+		)
 /*--------------------------------------------------------------*/
 /datum/job/bighorn/f13sheriff
 	title = "Sheriff"
@@ -194,7 +196,7 @@ Mayor
 	/datum/outfit/loadout/richmantender,
 	/datum/outfit/loadout/diner)
 
-	access = list(ACCESS_BAR, ACCESS_KITCHEN, ACCESS_TOWN_BAR, ACCESS_TOWN)
+	access = list(ACCESS_BAR, ACCESS_KITCHEN, ACCESS_TOWN_BAR, ACCESS_TOWN, ACCESS_FUSION)
 	minimal_access = list(ACCESS_BAR, ACCESS_KITCHEN, ACCESS_TOWN_BAR, ACCESS_TOWN)
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
@@ -275,7 +277,7 @@ Mayor
 	exp_requirements = 400
 
 	outfit = /datum/outfit/job/bighorn/f13shopkeeper
-	access = list(ACCESS_BAR, ACCESS_CARGO_BOT, ACCESS_TOWN, ACCESS_SHOPKEEP)
+	access = list(ACCESS_BAR, ACCESS_CARGO_BOT, ACCESS_TOWN, ACCESS_SHOPKEEP, ACCESS_FUSION)
 	minimal_access = list(ACCESS_BAR, ACCESS_CARGO_BOT, ACCESS_TOWN, ACCESS_SHOPKEEP)
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
@@ -386,7 +388,7 @@ Mayor
 	/datum/outfit/loadout/cleanser		//Just some bombs.
 	)
 
-	access = list(ACCESS_BAR, ACCESS_TOWN, ACCESS_CHAPEL_OFFICE)		//we can expand on this and make alterations as people suggest different loadouts
+	access = list(ACCESS_BAR, ACCESS_TOWN, ACCESS_CHAPEL_OFFICE, ACCESS_FUSION)		//we can expand on this and make alterations as people suggest different loadouts
 	minimal_access = list(ACCESS_BAR, ACCESS_TOWN, ACCESS_CHAPEL_OFFICE)
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
@@ -545,11 +547,13 @@ Mayor
 	backpack =		/obj/item/storage/backpack/cultpack
 	satchel = 		/obj/item/storage/backpack/cultpack
 	backpack_contents = list(
-		/obj/item/camera/spooky = 1, \
-		/obj/item/reagent_containers/food/drinks/flask=1, \
-		/obj/item/reagent_containers/hypospray/medipen/stimpak=2, \
-		/obj/item/storage/fancy/candle_box, \
-		/obj/item/storage/bag/money/small/settler)
+		/obj/item/camera/spooky = 1,
+		/obj/item/reagent_containers/food/drinks/flask = 1,
+		/obj/item/reagent_containers/hypospray/medipen/stimpak = 2,
+		/obj/item/storage/fancy/candle_box = 1,
+		/obj/item/pda = 1,
+		/obj/item/storage/bag/money/small/settler = 1,
+		)
 //end preacher
 
 /datum/outfit/job/bighorn/f13settler
@@ -674,7 +678,7 @@ Mayor
 	exp_type = EXP_TYPE_BIGHORN
 	exp_requirements = 200
 	outfit = /datum/outfit/job/bighorn/f13secretary
-	access = list(ACCESS_BAR, ACCESS_FORENSICS_LOCKERS)
+	access = list(ACCESS_BAR, ACCESS_FORENSICS_LOCKERS, ACCESS_FUSION)
 	minimal_access = list(ACCESS_BAR, ACCESS_FORENSICS_LOCKERS)
 
 /datum/outfit/job/bighorn/f13secretary
@@ -686,4 +690,6 @@ Mayor
 	backpack_contents = list(/obj/item/clothing/under/f13/classdress = 1,
 	/obj/item/clothing/under/suit/black_really = 1,
 	/obj/item/clothing/gloves/evening = 1,
-	/obj/item/clothing/gloves/color/white = 1)
+	/obj/item/clothing/gloves/color/white = 1,
+	/obj/item/pda = 1,
+	)

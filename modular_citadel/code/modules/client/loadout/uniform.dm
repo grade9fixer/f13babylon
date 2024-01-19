@@ -810,6 +810,12 @@
 	cost = 1
 	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_SKIRTS
 
+/datum/gear/uniform/skirt/tact
+	name = "tacticool combat skirt"
+	path = /obj/item/clothing/under/f13/legskirt/tact
+	cost = 1
+	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_SKIRTS
+
 /datum/gear/uniform/skirt/swept
 	name = "swept skirt"
 	path = /obj/item/clothing/under/dress/skirt/swept
@@ -953,6 +959,12 @@
 /datum/gear/uniform/wasteland/whitelegs
 	name = "White legs outfit"
 	path = /obj/item/clothing/under/f13/whitelegs
+	cost = 1
+	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_WASTELAND
+
+/datum/gear/uniform/wasteland/cowpoke
+	name = "cowpoke outfit"
+	path = /obj/item/clothing/under/f13/cowpoke
 	cost = 1
 	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_WASTELAND
 

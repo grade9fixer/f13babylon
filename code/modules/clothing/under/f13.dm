@@ -410,6 +410,15 @@
 	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = TRUE
 
+/obj/item/clothing/under/f13/legskirt/tact
+	name = "\improper tacticool combat skirt"
+	desc = "A leathery striped skirt below a black, long-sleeve striped cotton shirt. The sleeves look notably rollable"
+	icon_state = "tactskirt"
+	item_state = "tactskirt"
+	item_color = "tactskirt"
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = TRUE
+
 /obj/item/clothing/under/f13/priestess
 	name = "priestess robes"
 	desc = "The robes worn by a Priestess of Mars."
@@ -1732,6 +1741,16 @@
 	desc = "This white satin shirt used to be fancy. It used to really catch the light. Now it smells like someone took a piss in the armpits while the golden brown trousers are flare-cut. Normal bell-bottom trousers would be boot-cut, but these are far from normal. They are someone's piss-soaked, cum-stained party pants."
 	icon_state = "jamrock_uniform"
 	item_state = "jamrock_uniform"
+
+/obj/item/clothing/under/f13/cowpoke
+	name = "cowpoke outfit"
+	desc = "A washed out gray overshirt with blue neckerchief and old jeans."
+	icon_state = "cowpoke"
+	item_state = "cowpoke"
+	can_adjust = TRUE
+	unique_reskin = list("M1" = "cowpoket",
+						"M2" = "cowpokeb",
+						"M3" = "cowpoke")
 
 /obj/item/clothing/under/f13/keksweater
 	name = "Red Sweater"
