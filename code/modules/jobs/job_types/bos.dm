@@ -114,8 +114,8 @@ Head Paladin
 
 	loadout_options = list(
 	/datum/outfit/loadout/sentheavy, //Minigun
-	/datum/outfit/loadout/sentlaser, //Lasminigun
-	/datum/outfit/loadout/sentmelee, //Plasmaspear HEADPALLY OP+14mm
+	/datum/outfit/loadout/sentlaser, //AER14
+	/datum/outfit/loadout/sentmelee, //Supersledge + 14mm Pistol
 	)
 
 	outfit = /datum/outfit/job/bos/f13sentinel
@@ -162,9 +162,8 @@ Head Paladin
 /datum/outfit/loadout/sentlaser
 	name = "Rifleman Head Paladin"
 	backpack_contents = list(
-		/obj/item/gun/energy/laser/aer12 = 1,
-		/obj/item/attachments/scope = 1,
-		/obj/item/stock_parts/cell/ammo/mfc = 2,
+		/obj/item/gun/energy/laser/aer14 = 1,
+		/obj/item/stock_parts/cell/ammo/mfc = 2
 	)
 
 /datum/outfit/loadout/sentmelee
@@ -172,8 +171,8 @@ Head Paladin
 	backpack_contents = list(
 		/obj/item/twohanded/sledgehammer/supersledge = 1,
 		/obj/item/book/granter/trait/bigleagues = 1,
-		/obj/item/gun/ballistic/revolver/colt6520 = 1,
-		/obj/item/ammo_box/l10mm = 2,
+		/obj/item/gun/ballistic/automatic/pistol/pistol14 = 1,
+		/obj/item/ammo_box/magazine/m14mm = 2
 	)
 
 /*
@@ -438,9 +437,9 @@ Paladin
 	exp_requirements = 780
 
 	loadout_options = list(
-	/datum/outfit/loadout/paladina,	//Powerfist + Revolver
+	/datum/outfit/loadout/paladina,	//Powerfist + Deagle
 	/datum/outfit/loadout/paladinb, //R91
-	/datum/outfit/loadout/paladinc, //AER9
+	/datum/outfit/loadout/paladinc, //AER12
 	)
 
 	outfit = /datum/outfit/job/bos/f13paladin
@@ -489,8 +488,8 @@ Paladin
 	name = "Assault Paladin"
 	backpack_contents = list(
 		/obj/item/melee/f13powerfist = 1,
-		/obj/item/gun/ballistic/revolver/colt6520 = 1,
-		/obj/item/ammo_box/l10mm = 2,
+		/obj/item/gun/ballistic/automatic/pistol/deagle = 1,
+		/obj/item/ammo_box/magazine/m44 = 2,
 		/obj/item/book/granter/trait/bigleagues = 1,
 		/obj/item/clothing/accessory/bos/paladin = 1,
 		/obj/item/clothing/accessory/bos/juniorpaladin = 1,
@@ -510,7 +509,7 @@ Paladin
 /datum/outfit/loadout/paladinc
 	name = "Frontline Paladin"
 	backpack_contents = list(
-		/obj/item/gun/energy/laser/aer9 = 1,
+		/obj/item/gun/energy/laser/aer12 = 1,
 		/obj/item/stock_parts/cell/ammo/mfc = 2,
 		/obj/item/clothing/accessory/bos/paladin = 1,
 		/obj/item/clothing/accessory/bos/juniorpaladin = 1,
@@ -785,7 +784,7 @@ Scribe
 		)
 
 /datum/outfit/loadout/sknightb
-	name = "Knight Ranger"
+	name = "Knight Scout"
 	backpack_contents = list(
 		/obj/item/gun/energy/laser/wattz2k = 1,
 		/obj/item/stock_parts/cell/ammo/mfc = 2,
